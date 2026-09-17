@@ -1,0 +1,2 @@
+<template><PageHeader title="Users" subtitle="Users who interact with the IT helpdesk."/><section class="panel table-wrap"><table><thead><tr><th>User</th><th>Role</th><th>Email</th><th>Tickets</th></tr></thead><tbody><tr v-for="u in users" :key="u.email"><td><strong>{{u.name}}</strong></td><td>{{u.role}}</td><td>{{u.email}}</td><td>{{u.tickets}}</td></tr></tbody></table></section></template>
+<script setup>import PageHeader from '../components/PageHeader.vue'; import { users } from '../data/data.js'</script>

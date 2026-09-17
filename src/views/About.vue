@@ -1,0 +1,2 @@
+<template><PageHeader title="About" subtitle="Information about this training application."/><section class="panel about"><div class="large-mark">IT</div><div><h2>IT Helpdesk System</h2><p>This is a static Vue 3 + Vite frontend application created for a web deployment and Linux CLI practice lab.</p><ul><li>Vue 3 components and Vue Router</li><li>Vite production build</li><li>Mock data only — no database required</li><li>Designed for Apache deployment on Ubuntu</li></ul></div></section></template>
+<script setup>import PageHeader from '../components/PageHeader.vue'</script>
