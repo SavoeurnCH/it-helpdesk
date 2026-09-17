@@ -1,7 +1,10 @@
 <template>
   <div class="app-shell">
     <aside class="sidebar">
-      <div class="brand"><div class="brand-mark">IT</div><div><strong>Helpdesk</strong><span>IT Support System</span></div></div>
+      <div class="brand">
+        <img src="/Logo.png" alt="PNC Logo" class="brand-logo" />
+        <div><strong>Helpdesk</strong><span>IT Support System</span></div>
+      </div>
       <nav>
         <RouterLink to="/"><span>⌂</span> Dashboard</RouterLink>
         <RouterLink to="/tickets"><span>▣</span> Tickets <b>3</b></RouterLink>
